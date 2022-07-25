@@ -84,22 +84,29 @@ header{
     margin: 0 40px;
 }
 .diferencial-single:hover{
-   background-color: rgba(0, 0, 0, 0.103);
+   background-color: rgba(0, 0, 0, 0.144);
+   transition: 0.5s;
    border-radius: 15px;
 }
  .diferencial-single svg{
-     color: #f9004d;    
     font-size: 45px;
-}
+    color: #f9004d;
+  
+ }      
+ 
 .diferencial-single h3{
-   padding-top:25px ;
-   padding-bottom:20px ;
-    color: white;
-    font-size:19px;
-    font-weight: bold;
-     margin: 10px 0;
-}
-.diferencial-single p{
-    color: white;
-    font-size: 19px;
-}
+    padding-top:25px ;
+    padding-bottom:20px ;
+     color: white;
+     font-size:19px;
+     font-weight: bold;
+      margin: 10px 0;
+ }
+ .diferencial-single p{
+     color: white;
+     font-size: 19px;
+     margin-bottom: 30px;
+ }   
+     	 
+  
+ 
