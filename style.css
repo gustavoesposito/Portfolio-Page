@@ -103,6 +103,8 @@ header{
       margin: 10px 0;
  }
  .diferencial-single p{
+    display: flex;
+    flex-wrap: wrap;
      color: white;
      font-size: 19px;
      margin-bottom: 30px;
