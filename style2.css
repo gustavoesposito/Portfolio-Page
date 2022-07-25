@@ -73,15 +73,14 @@ section{
     display: flex;
     width: 100%;
    align-items: center;
-   justify-content:center;
-   background-color: rgba(0, 0, 0, 0.144);
+    background-color: rgba(0, 0, 0, 0.094);
    margin-top: 100px;
 }
 section img{
-     border-radius:0 0 20px 20px  ;
-     background-color: rgba(0, 0, 0, 0.144);
-     height: 400px;
-    width: 350px;
+    box-shadow:0 8px 7px 0 rgba(0, 0, 0, 0.41);
+    border-radius:0 20px 20px 20px  ;
+     width: 350px;
     margin-top: -40px;
-
+    margin-bottom: -40px;
+    margin-left: 50px;
 }
