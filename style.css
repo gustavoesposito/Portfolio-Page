@@ -15,12 +15,39 @@ body{
 }
 
 .center{
-    max-width: 1100px;
+    width: 100%;
+    max-width: 1480px;
     padding: 0 2%;
     margin: 0 auto;
     display: flex;
 }
+header{
+    margin:20px 0;
+}
 
-.space-around{
-    justify-content:space-around;
+.alignflex{
+    justify-content:space-between;
+}
+.menu-btn{
+    display: inline-block;
+}
+.menu-items a{
+    display:inline-block;
+    color: white;
+    margin: 0 8px;
+}
+.menu-items a.active{
+    color:  #f9004d;
+}
+.menu-btn button{
+    border: 1px solid white;
+    padding:8px;
+    color: white;
+    background-color: transparent;
+}
+
+.menu-btn button:hover{
+   background-color: #f9004d;
+    color: #222;
+    border: 1px solid #222;
 }
