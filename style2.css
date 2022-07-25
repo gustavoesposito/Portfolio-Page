@@ -71,11 +71,14 @@ header{
 }
 section{
     display: flex;
-     
+    width: 100%;
+   align-items: center;
+   justify-content:center;
+   
 }
 section img{
-    
-    border-radius: 20px;
+     border-radius:0 0 20px 20px  ;
+     margin-top: 80px;
     height: 400px;
-    width: 320px;
+    width: 350px;
 }
