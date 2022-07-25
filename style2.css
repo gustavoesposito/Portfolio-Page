@@ -74,11 +74,14 @@ section{
     width: 100%;
    align-items: center;
    justify-content:center;
-   
+   background-color: rgba(0, 0, 0, 0.144);
+   margin-top: 100px;
 }
 section img{
      border-radius:0 0 20px 20px  ;
-     margin-top: 80px;
-    height: 400px;
+     background-color: rgba(0, 0, 0, 0.144);
+     height: 400px;
     width: 350px;
+    margin-top: -40px;
+
 }
