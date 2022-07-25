@@ -69,3 +69,13 @@ header{
     border: 1px solid #222;
     transition: 0.5s;
 }
+section{
+    display: flex;
+     
+}
+section img{
+    
+    border-radius: 20px;
+    height: 400px;
+    width: 320px;
+}
