@@ -35,19 +35,36 @@ header{
     display:inline-block;
     color: white;
     margin: 0 8px;
+    text-decoration: none;
+    flex-wrap: nowrap;
+}
+.menu-items a:hover{
+      
+    text-decoration:underline #f9004d;
+  
 }
 .menu-items a.active{
     color:  #f9004d;
 }
+.menu-items a.active:hover{
+   text-decoration: underline white;
+}
+ 
+ 
 .menu-btn button{
     border: 1px solid white;
-    padding:8px;
+    padding:10px 14px;
     color: white;
     background-color: transparent;
+    border-radius: 8px;
+    margin:0 15px;
+    font-size: 15px;
+    cursor: pointer;
 }
 
 .menu-btn button:hover{
    background-color: #f9004d;
     color: #222;
     border: 1px solid #222;
+    transition: 0.5s;
 }
