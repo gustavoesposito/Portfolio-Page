@@ -68,9 +68,9 @@ header{
     border: 1px solid #222;
     transition: 0.5s;
 }
-section{
+.center_contato {
     background-color: rgba(5, 5, 5, 0.222);
-    margin-top:150px ;
+    margin-top:100px ;
     position:relative;
     height: 20vw;
 }
@@ -85,7 +85,7 @@ section{
     border-radius: 0px 0px 10px 10px;
     height: 8vw;
     width: 20vw;
-    margin-left: 30px;
+    margin-left: 90px;
      
 }
 .table{
@@ -95,14 +95,13 @@ section{
       color: white;
       justify-content: center;
       align-items: center;
-      font-size:20px;
+      font-size:15px;
       align-content: center;
     padding: 40px;
     
  }
  td,tr{
-    margin: 30px;
-    padding: 10px;
+     padding: 4px;
  }
  footer{
     position: absolute;
@@ -114,6 +113,7 @@ section{
     background-image: linear-gradient(305deg, #f81f01,#ee076e) ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    height: 350vw;
  }
  a{
     text-decoration: none;

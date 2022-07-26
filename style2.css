@@ -94,7 +94,8 @@ img{
     margin-top:-30px ;
     margin-left: 300px;
     margin-bottom: -30px;
-  }
+    box-shadow: 2px 4px 2px 1px rgba(0, 0, 0, 0.395);  
+}
 .sub  {
      display:inline-block;
     justify-content: center;
@@ -127,8 +128,42 @@ img{
     overflow : auto;
     width: 100%;
    }
-  
-   footer{
+   .center_contato {
+    background-color: rgba(5, 5, 5, 0.222);
+    margin-top:100px ;
+    position:relative;
+    height: 20vw;
+}
+.contato{
+   display: inline-flex;
+   justify-content:center;
+   align-items: center;
+    background-color: rgba(0, 0, 0, 0.303);
+    position: absolute;
+    margin-top: -47px;
+    color: #f9004d;
+    border-radius: 0px 0px 17px 17px;
+    height: 8vw;
+    width: 20vw;
+    margin-left: 90px;
+    box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.303);
+}
+.table{
+     display: flex;
+     flex-direction:column;
+     text-decoration: none;
+      color: white;
+      justify-content: center;
+      align-items: center;
+      font-size:15px;
+      align-content: center;
+    padding: 40px;
+    
+ }
+ td,tr{
+     padding: 4px;
+ }
+ footer{
     position: absolute;
     bottom: 0;
     text-align: center;
@@ -138,5 +173,26 @@ img{
     background-image: linear-gradient(305deg, #f81f01,#ee076e) ;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    height: 350vw;
  }
+ a{
+    text-decoration: none;
+    color:white;
+    
+ }
+ a:hover{
+    text-decoration: #ee076e;
+    cursor: pointer
+    ;
+    background-image: linear-gradient(305deg, #f81f01,#ee076e) ;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .about_contact{
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ 
+  }
+
             
