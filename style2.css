@@ -132,16 +132,16 @@ img{
     background-color: rgba(0, 0, 0, 0.303);
     margin-top:100px ;
     position:relative;
-    height: 20vw;
-    top: -250px;
+    height: 10vw;
+    top: 0px;
 }
 .contato{
    display: inline-flex;
    justify-content:center;
    align-items: center;
-    background-color: rgba(0, 0, 0, 0.303);
+    background-color:#222;
     position: absolute;
-    margin-top: -47px;   
+    margin-top: -87px;   
      color: #f9004d;
     border-radius: 0px 0px 17px 17px;
     height: 8vw;
