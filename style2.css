@@ -70,38 +70,13 @@ header{
     transition: 0.5s;
 }
 section{
-    position:relative;
  
-}
-section img{
-    position: absolute;
-    top: 50px;
-     width: 400px;
-     height: 400px;
-    
- }
   
- .about{
-    position: absolute;
-   top: 30px;
-   right: 100px;
-   display:flex ;
-   width: 100%;
-   max-width: 1480px;
-   justify-content:center;
-   align-items: center;
-  }
- .text1{
-    position: absolute;
-    top:80px;
-    left: 600px;
-    display: flex;
-    flex-wrap: wrap;
-     box-sizing: border-box;
-     width:500px;
-     height: 500px;
- }
-
+}
+img{
+    width:100px;
+    height:100px;
+}
    
   
     
