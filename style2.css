@@ -129,10 +129,11 @@ img{
     width: 100%;
    }
    .center_contato {
-    background-color: rgba(5, 5, 5, 0.222);
+    background-color: rgba(0, 0, 0, 0.303);
     margin-top:100px ;
     position:relative;
     height: 20vw;
+    top: -250px;
 }
 .contato{
    display: inline-flex;
@@ -140,12 +141,13 @@ img{
    align-items: center;
     background-color: rgba(0, 0, 0, 0.303);
     position: absolute;
-    margin-top: -47px;
-    color: #f9004d;
+    margin-top: -47px;   
+     color: #f9004d;
     border-radius: 0px 0px 17px 17px;
     height: 8vw;
     width: 20vw;
     margin-left: 90px;
+   
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.303);
 }
 .table{
@@ -192,7 +194,8 @@ img{
  display: flex;
  justify-content: center;
  align-items: center;
- 
+  margin-top:   40px;
+text-align: center;
   }
 
             
