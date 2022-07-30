@@ -231,7 +231,17 @@ text-align: center;
   padding: 5px;
 border-radius: 10px;
 cursor: pointer;
+transition: 0.5s;
 }
-  
-
+  .manual_btn:not(:last-child)
+  {
+    margin-right:20px;
+    
+  }
+  .manual_btn:hover{
+    background-color: #f9004d;
+  }
+#radio1:checked ~ .first{
+  margin-left: 0;
+}
             
