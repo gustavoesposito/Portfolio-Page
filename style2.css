@@ -273,4 +273,15 @@ cursor: pointer;
 .navigation_auto div:not(:last-child){
   margin-right:20px;
 }
- 
+ #radio1:checked ~ .navigation_auto .auto_btn1{
+  background-color: #f9004d;
+ }
+ #radio2:checked ~ .navigation_auto .auto_btn2{
+  background-color: #f9004d;
+ }
+ #radio3:checked ~ .navigation_auto .auto_btn3{
+  background-color: #f9004d;
+ }
+ #radio4:checked ~ .navigation_auto .auto_btn4{
+  background-color: #f9004d;
+ }
