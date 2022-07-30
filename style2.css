@@ -72,7 +72,7 @@ header{
     border: 1px solid #222;
     transition: 0.5s;
 }
-section{
+ section{
     position:relative;
     top: 0;
     bottom: 0;
@@ -133,7 +133,7 @@ section{
     background-color: rgba(0, 0, 0, 0.303);
     margin-top:100px ;
     position:relative;
-    height: 10vw;
+    height: 15vw;
     top: 0px;
 }
 .contato{
@@ -204,6 +204,7 @@ text-align: center;
     height: 400px;
     overflow: hidden;
      border-radius:30px;
+     margin-left: 450px;
    }
   .slides{
     width:400%;
@@ -255,6 +256,9 @@ transition: 0.5s;
 #radio4:checked ~ .first{
   margin-left: -75%;
 }
+#radio5:checked ~ .first{
+  margin-left: -100%;
+}
 .navigation_auto div{
 border: 2px solid #f9004d;
 padding: 5px;
@@ -283,5 +287,8 @@ cursor: pointer;
   background-color: #f9004d;
  }
  #radio4:checked ~ .navigation_auto .auto_btn4{
+  background-color: #f9004d;
+ }
+ #radio5:checked ~ .navigation_auto .auto_btn5{
   background-color: #f9004d;
  }

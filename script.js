@@ -2,12 +2,12 @@ let count = 1;
 document.getElementById("radio1").checked = true;
 
 setInterval (function(){
-
-}, 2000 )
+nextImage();
+}, 2500 )
 
 function nextImage(){
     count++;
-    if(count>4){
+    if(count>5){
         count = 1;
 
     }
