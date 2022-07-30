@@ -244,4 +244,7 @@ transition: 0.5s;
 #radio1:checked ~ .first{
   margin-left: 0;
 }
-            
+#radio2:checked ~ .first{
+  margin-left: -25%;
+}
+ 
