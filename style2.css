@@ -205,6 +205,7 @@ text-align: center;
     overflow: hidden;
      border-radius:30px;
      margin-left: 450px;
+     margin-top: -20px;
    }
   .slides{
     width:400%;
