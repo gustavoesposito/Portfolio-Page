@@ -255,7 +255,22 @@ transition: 0.5s;
 #radio4:checked ~ .first{
   margin-left: -75%;
 }
+.navigation_auto div{
+border: 2px solid #f9004d;
+padding: 5px;
+border-radius: 10px;
+transition: 0.5s;
+cursor: pointer;
+}
 .navigation_auto{
+  position: absolute;
+  width: 800px;
+  margin-top: 360px;
+  display: flex;
+  justify-content: center;
 
+}
+.navigation_auto div:not(:last-child){
+  margin-right:20px;
 }
  
